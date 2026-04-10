@@ -1,17 +1,3 @@
-// Copyright 2024-2025 The Connect Authors
-//
-// Licensed under the Apache License, Version 2.0 (the "License");
-// you may not use this file except in compliance with the License.
-// You may obtain a copy of the License at
-//
-//      http://www.apache.org/licenses/LICENSE-2.0
-//
-// Unless required by applicable law or agreed to in writing, software
-// distributed under the License is distributed on an "AS IS" BASIS,
-// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-// See the License for the specific language governing permissions and
-// limitations under the License.
-
 //
 //  Generated code. Do not modify.
 //  source: connectrpc/conformance/v1/service.proto
@@ -25,7 +11,7 @@ import "service.connect.spec.dart" as specs;
 /// the reference servers, used to test clients, and is expected to be implemented
 /// by test servers, since this is the service used by reference clients.
 /// Test servers must implement the service as described.
-extension type ConformanceServiceClient(connect.Transport _transport) {
+extension type ConformanceServiceClient (connect.Transport _transport) {
   /// A unary operation. The request indicates the response headers and trailers
   /// and also indicates either a response message or an error to send back.
   /// Response message data is specified as bytes. The service should echo back
@@ -194,8 +180,7 @@ extension type ConformanceServiceClient(connect.Transport _transport) {
   /// A unary endpoint denoted as having no side effects (i.e. idempotent).
   /// Implementations should use an HTTP GET when invoking this endpoint and
   /// leverage query parameters to send data.
-  Future<connectrpcconformancev1service.IdempotentUnaryResponse>
-      idempotentUnary(
+  Future<connectrpcconformancev1service.IdempotentUnaryResponse> idempotentUnary(
     connectrpcconformancev1service.IdempotentUnaryRequest input, {
     connect.Headers? headers,
     connect.AbortSignal? signal,
