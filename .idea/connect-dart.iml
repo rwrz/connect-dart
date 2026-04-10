@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/build" />
+      <excludeFolder url="file://$MODULE_DIR$/example/eliza/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/example/eliza/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/example/eliza/build" />
+      <excludeFolder url="file://$MODULE_DIR$/example/web/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/example/web/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/example/web/build" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/conformance/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/conformance/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/conformance/build" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/connect/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/connect/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/connect/build" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/tools/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/tools/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/tools/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
