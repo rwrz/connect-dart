@@ -12,18 +12,12 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-import 'dart:io';
+edition = "2024";
 
-import 'package:args/args.dart';
+package edition;
 
-void main(List<String> args) async {
-  final parser = ArgParser();
-  parser.addOption('port', abbr: 'p');
-  final flags = parser.parse(args);
-  final port = int.parse(flags.option('port') ?? '');
-  final socket = await Socket.connect(InternetAddress.loopbackIPv4, port);
-  await Future.wait([
-    stdin.pipe(socket),
-    socket.cast<List<int>>().pipe(stdout),
-  ]);
+message Msg {}
+
+service EditionService {
+  rpc Unary(Msg) returns (Msg);
 }
